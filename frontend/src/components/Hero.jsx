@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import AuthContext from "../contexts/AuthContext.jsx";
 import heroImg from "../assets/heroImg.png";
-import pulseCheckLogo from "../assets/pulseCheck_logo.png";
+import pulseCheckLogo from "../assets/PulseCheck_logo.png";
 import {
   Timer,
   Bell,

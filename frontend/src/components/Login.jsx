@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import AuthContext from "../contexts/AuthContext.jsx";
-import pulseCheckLogo from "../assets/pulseCheck_logo.png";
+import pulseCheckLogo from "../assets/PulseCheck_logo.png";
 
 export default function Login() {
   const { loginController, loading } = useContext(AuthContext);

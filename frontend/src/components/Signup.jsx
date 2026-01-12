@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
-import pulseCheckLogo from "../assets/pulseCheck_logo.png";
+import pulseCheckLogo from "../assets/PulseCheck_logo.png";
 import AuthContext from "../contexts/AuthContext.jsx";
 
 export default function Signup() {
