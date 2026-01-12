@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer components {
+    .bg-hero-gradient {
+        background: linear-gradient(135deg, #e0f7fa 0%, #ffe0f0 100%);
+    }
+
+    .add-monitor-input {
+        @apply w-full px-3 py-2 rounded-lg text-[14px] border border-gray-300 focus:outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition;
+    }
+
+    .add-monitor-label {
+        @apply block text-[12px] text-[#333333] font-medium mb-2;
+    }
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #FAFAFA;
+}
