@@ -3,7 +3,6 @@
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Node.js](https://img.shields.io/badge/Node.js-18.x-green)](https://nodejs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-6.x-blue)](https://www.mongodb.com/)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://your-live-demo-url.com)
 
 PulseCheck is a real-time **website and API uptime monitoring platform** that helps users track availability, response times, and service reliability. Users can configure monitors, receive instant email alerts on downtime, and analyze historical performance data via a secure dashboard.
 
@@ -13,7 +12,7 @@ PulseCheck is a real-time **website and API uptime monitoring platform** that he
 
 ## 🚀 Live Demo
 
----
+## https://pulse-check-api-monitoring.vercel.app
 
 ## ✨ Features
 
@@ -129,25 +128,31 @@ The application should now be running locally.
 ## 📁 Project Structure
 
 ```text
-pulsecheck/
+pulseCheck/
 │
 ├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── utils/
-│   └── server.js
+│   └── src/
+│       ├── controllers/
+│       ├── models/
+│       ├── routes/
+│       ├── middlewares/
+│       ├── utils/
+│       ├── services/
+│       └── server.js
 │
 ├── frontend/
-│   ├── components/
-│   ├── pages/
-│   ├── contexts/
-│   └── main.jsx
+│   └── src/
+│       ├── components/
+│       ├── contexts/
+│       ├── pages/
+│       ├── assets/
+│       ├── services/
+│       └── main.jsx
 │
 ├── screenshots/
 │   ├── home-ss.png
-│   ├── dashboard-ss.png
-│   └── monitor-ss.png
+│   ├── monitors-ss.png
+│   └── monitorDetail-ss.png
 │
 └── README.md
 ```
